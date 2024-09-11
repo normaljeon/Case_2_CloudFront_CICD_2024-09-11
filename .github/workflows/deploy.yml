@@ -26,3 +26,7 @@ jobs:
 
       - name: Cloudfront 캐시 무효화
         run: aws cloudfront create-invalidation --distribution-id E1BETIN5WHPVS3 --paths "/*"
+
+
+
+
